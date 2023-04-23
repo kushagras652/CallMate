@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#658C9E"
+    tools:context=".SignUpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="We Need a few details to"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup1"
+            app:layout_constraintTop_toBottomOf="@+id/signup"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="get Account Ready"
+            android:textColor="#fff"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:id="@+id/signup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/ubuntu_bolditalic"
+            android:text="SIGN UP"
+            android:textColor="#fff"
+            android:textSize="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup1" />
+
+        <EditText
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="19dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:padding="10dp"
+            android:fontFamily="@font/ubuntu_mediumitalic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/signup2"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"/>
+
+        <EditText
+            android:id="@+id/enterLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Last Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="19dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:fontFamily="@font/ubuntu_mediumitalic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/enterName"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="25dp"/>
+
+        <EditText
+            android:id="@+id/enterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:textSize="19dp"
+            android:fontFamily="@font/ubuntu_mediumitalic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/enterLastName"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"/>
+
+        <EditText
+            android:id="@+id/enterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="19dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:fontFamily="@font/ubuntu_mediumitalic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/enterEmail"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="numberPassword"
+            android:layout_marginEnd="25dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupButton"
+            android:text="SIGN UP"
+            android:padding="10dp"
+            app:layout_constraintTop_toBottomOf="@id/enterPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/background1"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/account"
+            android:text="Already Account?Signin"
+            app:layout_constraintTop_toBottomOf="@id/signupButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp"
+            android:textColor="#E11313"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
