@@ -1,8 +1,11 @@
-package com.example.videocall;
+package com.example.videocall.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.example.videocall.R;
 
 public class MainActivity extends AppCompatActivity {
 

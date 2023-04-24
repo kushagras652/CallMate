@@ -1,10 +1,12 @@
-package com.example.videocall;
+package com.example.videocall.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.videocall.R;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -16,7 +18,7 @@ public class SignUpActivity extends AppCompatActivity {
         findViewById(R.id.account).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),SignInActivity.class));
+                startActivity(new Intent(getApplicationContext(), SignInActivity.class));
                 finish();
             }
         });
