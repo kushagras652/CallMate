@@ -92,7 +92,7 @@
             android:textSize="25dp"/>
 
         <Button
-            android:id="@+id/signinButton"
+            android:id="@+id/signInButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
@@ -109,12 +109,22 @@
             android:id="@+id/text69"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/signinButton"
+            app:layout_constraintTop_toBottomOf="@id/signInButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:text="New Account?Sign Up here"
             android:layout_marginTop="18dp"
             android:textColor="#F44336"/>
+
+        <ProgressBar
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:id="@+id/signInProgressBar"
+            app:layout_constraintTop_toBottomOf="@id/text69"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp"
+            android:visibility="invisible"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
