@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#AE4626</color>
     <color name="offWhite">#b3b5b7</color>
-
+    <color name="colorMeetingInvitationStart">#4004BB</color>
+    <color name="colorMeetingInvitationEnd">#8A1AAA</color>
 </resources>
