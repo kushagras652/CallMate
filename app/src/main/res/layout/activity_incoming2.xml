@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_meeting_invitation"
     tools:context=".Activities.IncomingActivity">
-    
+
     <ImageView
         android:id="@+id/imageMeetingType"
         android:layout_width="@dimen/_30sdp"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="@dimen/_50sdp"
         app:tint="#fff" />
-    
+
     <TextView
         android:id="@+id/textIncomingMeetingInvitation"
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
         android:textColor="#fff"
         android:text="Incoming Meeting Invitation"
         app:layout_constraintTop_toBottomOf="@id/imageMeetingType"/>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             android:textColor="#fff"
             android:textSize="@dimen/_10ssp"/>
     </LinearLayout>
-    
+
     <ImageView
         android:id="@+id/acceptCall"
         android:layout_width="@dimen/_50sdp"
@@ -93,7 +93,7 @@
         android:layout_marginEnd="@dimen/_60sdp"
         android:layout_marginBottom="@dimen/_50sdp"
         app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:padding="@dimen/_10sdp"
         android:background="@drawable/background_reject"
         android:src="@drawable/reject"

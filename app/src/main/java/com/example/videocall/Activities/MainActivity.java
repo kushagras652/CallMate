@@ -139,10 +139,10 @@ public class MainActivity extends AppCompatActivity implements UserListener {
                     Toast.LENGTH_SHORT
             ).show();
         }else{
-            Intent intent=new Intent(getApplicationContext(),OutgoingActivity.class );
-            intent.putExtra("user",user);
-            intent.putExtra("type","video");
-            startActivity(intent);
+           Intent intent=new Intent(getApplicationContext(), Outgoing2Activity.class);
+           intent.putExtra("user",user);
+           intent.putExtra("type","video");
+           startActivity(intent);
         }
     }
 

@@ -6,11 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.videocall.R;
 
-public class IncomingActivity extends AppCompatActivity {
+public class Incoming2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_incoming);
+        setContentView(R.layout.activity_incoming2);
     }
 }
